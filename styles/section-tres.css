@@ -1,0 +1,69 @@
+.vagas__container {
+    align-items: center;
+    text-align: center;
+}
+
+.vagas__anuncio {
+    color: var(--vermelho);
+    font-size: 14px;
+    font-weight: 500;
+    background-color: var(--vermelho-claro); 
+    display: inline-block; 
+    padding: 0.5em;  
+    border-radius: 24px;
+}
+
+.vagas__titulo {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--cinza-mais-escuro);
+    padding: 1em 0 1.25em 0;
+}
+
+.vagas__texto {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cinza-mais-escuro);
+}
+
+.vagas__imagem {
+    width: 100%;
+    margin: 6em 0;
+}
+
+.area {
+    width: 40vw;
+    margin: 0 auto;
+}
+
+.area__titulo {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--cinza-mais-escuro);
+    list-style-type: none;
+    padding-bottom: 2em;
+}
+
+.area__container {
+    border: 1px solid var(--cinza-borda);
+    border-radius: 16px;
+    list-style-type: none;
+    margin-bottom: 1.5em;
+    padding: 1.5em;
+}
+
+.container__vaga {
+    color: var(--cinza-mais-escuro);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.container__descricao {
+    display: flex;
+    color: var(--cinza-claro);
+    padding-top: 2em;
+}
+
+.descricao__periodo {
+    padding-right: 1.5em;
+}
