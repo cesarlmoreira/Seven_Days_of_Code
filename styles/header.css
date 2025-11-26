@@ -11,32 +11,56 @@
 }
 
 .cabecalho__nome {
-    padding-left: 0.2em;
+    padding-left: 0.2rem;
     color: var(--cinza-escuro);
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 .cabecalho__navegacao {
     margin-right: auto;
-    padding-left: 5em;
+    padding-left: 5rem;
 }
 
 .navegacao__link {
     text-decoration: none;
     color: var(--cinza-claro);
-    padding-right: 2em;
+    padding-right: 2rem;
 }
 
 .login__entrar {
     color: var(--cinza-claro);
-    padding-right: 1em;
+    padding-right: 1rem;
     text-decoration: none;
 }
 
 .login__cadastrar {
     background-color: var(--vermelho);
     color: var(--cor-de-fundo);
-    padding: 0.5em;
+    padding: 0.5rem;
     border-radius: 6px;
     text-decoration: none;
+}
+
+@media screen and (max-width: 942px) {
+    .cabecalho {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "cabecalho__logo login"
+            "cabecalho__navegacao cabecalho__navegacao";
+
+    }
+
+    .cabecalho__logo {grid-area: cabecalho__logo;}
+    .login {grid-area: login;}
+    .cabecalho__navegacao {grid-area: cabecalho__navegacao;}
+
+    .cabecalho__navegacao {
+        margin: 1rem;
+        padding: 0;
+    }
+
+    .navegacao__link {
+        font-size: 0.875rem;
+    }
 }
