@@ -24,3 +24,15 @@
     font-size: 1.25rem;
     font-weight: 400;
 }
+
+@media screen and (max-width: 942px) {
+    .sobre-nos {
+        margin: 2rem 0;
+        width: 100%;
+    }
+
+    .sobre-nos__titulo {
+        padding: 0.5rem 0;
+    }
+
+}

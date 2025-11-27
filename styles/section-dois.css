@@ -26,3 +26,18 @@
     font-weight: 400;
     color: var(--cinza-claro);
 }
+
+@media screen and (max-width: 942px) {
+    .informativo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 0 2rem 2rem; 
+    justify-content: center;
+
+    }
+
+    .informativo__coluna {
+        width: 75%;
+        text-align: center;
+    }
+}

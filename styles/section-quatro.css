@@ -30,3 +30,14 @@
     font-weight: 400;
     color: var(--cinza-claro);
 }
+
+@media screen and (max-width: 942px) {
+    .publicidade {
+        margin: 1rem 0;
+        padding: 1rem;
+    }
+
+    .publicidade__titulo {
+        margin-bottom: 1.5rem;
+    }
+}

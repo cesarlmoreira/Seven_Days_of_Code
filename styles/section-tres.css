@@ -67,3 +67,21 @@
 .descricao__periodo {
     padding-right: 1.5rem;
 }
+
+@media screen and (max-width: 942px) {
+    .vagas__titulo {
+        padding: 0.5rem 0 1rem 0;
+    }
+
+    .vagas__imagem {
+        margin: 1rem 0;
+    }
+    
+    .area {
+        width: 80vw;
+    }
+
+    .area__titulo {
+        padding-bottom: 1rem;
+    }
+}
